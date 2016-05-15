@@ -37,6 +37,12 @@
 		0C2CABA21CE858EC006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABA01CE858EC006094D1 /* Main.storyboard */; };
 		0C2CABA41CE858EC006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABA31CE858EC006094D1 /* Assets.xcassets */; };
 		0C2CABA71CE858EC006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABA51CE858EC006094D1 /* LaunchScreen.storyboard */; };
+		0C2CABB41CE85AF2006094D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CABB31CE85AF2006094D1 /* main.m */; };
+		0C2CABB71CE85AF2006094D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CABB61CE85AF2006094D1 /* AppDelegate.m */; };
+		0C2CABBA1CE85AF2006094D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CABB91CE85AF2006094D1 /* ViewController.m */; };
+		0C2CABBD1CE85AF2006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABBB1CE85AF2006094D1 /* Main.storyboard */; };
+		0C2CABBF1CE85AF2006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABBE1CE85AF2006094D1 /* Assets.xcassets */; };
+		0C2CABC21CE85AF2006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABC01CE85AF2006094D1 /* LaunchScreen.storyboard */; };
 		0C71354E1CE6BB6B00EBA14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71354D1CE6BB6B00EBA14C /* main.m */; };
 		0C7135511CE6BB6B00EBA14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135501CE6BB6B00EBA14C /* AppDelegate.m */; };
 		0C7135541CE6BB6B00EBA14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135531CE6BB6B00EBA14C /* ViewController.m */; };
@@ -102,6 +108,16 @@
 		0C2CABA31CE858EC006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2CABA61CE858EC006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C2CABA81CE858EC006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2CABB01CE85AF2006094D1 /* 07_StatusBar文字颜色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07_StatusBar文字颜色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2CABB31CE85AF2006094D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C2CABB51CE85AF2006094D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C2CABB61CE85AF2006094D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C2CABB81CE85AF2006094D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C2CABB91CE85AF2006094D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C2CABBC1CE85AF2006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C2CABBE1CE85AF2006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C2CABC11CE85AF2006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C2CABC31CE85AF2006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7135491CE6BB6B00EBA14C /* Objective-C_201605.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201605.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C71354D1CE6BB6B00EBA14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C71354F1CE6BB6B00EBA14C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +170,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C2CAB921CE858EC006094D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CABAD1CE85AF2006094D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,6 +320,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C2CABB11CE85AF2006094D1 /* 07_StatusBar文字颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CABB51CE85AF2006094D1 /* AppDelegate.h */,
+				0C2CABB61CE85AF2006094D1 /* AppDelegate.m */,
+				0C2CABB81CE85AF2006094D1 /* ViewController.h */,
+				0C2CABB91CE85AF2006094D1 /* ViewController.m */,
+				0C2CABBB1CE85AF2006094D1 /* Main.storyboard */,
+				0C2CABBE1CE85AF2006094D1 /* Assets.xcassets */,
+				0C2CABC01CE85AF2006094D1 /* LaunchScreen.storyboard */,
+				0C2CABC31CE85AF2006094D1 /* Info.plist */,
+				0C2CABB21CE85AF2006094D1 /* Supporting Files */,
+			);
+			path = "07_StatusBar文字颜色";
+			sourceTree = "<group>";
+		};
+		0C2CABB21CE85AF2006094D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CABB31CE85AF2006094D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C7135401CE6BB6B00EBA14C = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +354,7 @@
 				0C2CAB601CE85651006094D1 /* 04_关闭/收起键盘方法总结 */,
 				0C2CAB7B1CE8574B006094D1 /* 05_iOS模拟器的键盘事件 */,
 				0C2CAB961CE858EC006094D1 /* 06_ScrollView的KeyboardDismissMode */,
+				0C2CABB11CE85AF2006094D1 /* 07_StatusBar文字颜色 */,
 				0C71354A1CE6BB6B00EBA14C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -321,6 +369,7 @@
 				0C2CAB5F1CE85651006094D1 /* 04_关闭/收起键盘方法总结.app */,
 				0C2CAB7A1CE8574B006094D1 /* 05_iOS模拟器的键盘事件.app */,
 				0C2CAB951CE858EC006094D1 /* 06_ScrollView的KeyboardDismissMode.app */,
+				0C2CABB01CE85AF2006094D1 /* 07_StatusBar文字颜色.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -461,6 +510,23 @@
 			productReference = 0C2CAB951CE858EC006094D1 /* 06_ScrollView的KeyboardDismissMode.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C2CABAF1CE85AF2006094D1 /* 07_StatusBar文字颜色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2CABC41CE85AF2006094D1 /* Build configuration list for PBXNativeTarget "07_StatusBar文字颜色" */;
+			buildPhases = (
+				0C2CABAC1CE85AF2006094D1 /* Sources */,
+				0C2CABAD1CE85AF2006094D1 /* Frameworks */,
+				0C2CABAE1CE85AF2006094D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07_StatusBar文字颜色";
+			productName = "07_StatusBar文字颜色";
+			productReference = 0C2CABB01CE85AF2006094D1 /* 07_StatusBar文字颜色.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C7135481CE6BB6B00EBA14C /* Objective-C_201605 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C7135601CE6BB6B00EBA14C /* Build configuration list for PBXNativeTarget "Objective-C_201605" */;
@@ -519,6 +585,9 @@
 					0C2CAB941CE858EC006094D1 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C2CABAF1CE85AF2006094D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0C7135481CE6BB6B00EBA14C = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -547,6 +616,7 @@
 				0C2CAB5E1CE85651006094D1 /* 04_关闭/收起键盘方法总结 */,
 				0C2CAB791CE8574B006094D1 /* 05_iOS模拟器的键盘事件 */,
 				0C2CAB941CE858EC006094D1 /* 06_ScrollView的KeyboardDismissMode */,
+				0C2CABAF1CE85AF2006094D1 /* 07_StatusBar文字颜色 */,
 			);
 		};
 /* End PBXProject section */
@@ -599,6 +669,16 @@
 				0C2CABA71CE858EC006094D1 /* LaunchScreen.storyboard in Resources */,
 				0C2CABA41CE858EC006094D1 /* Assets.xcassets in Resources */,
 				0C2CABA21CE858EC006094D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CABAE1CE85AF2006094D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CABC21CE85AF2006094D1 /* LaunchScreen.storyboard in Resources */,
+				0C2CABBF1CE85AF2006094D1 /* Assets.xcassets in Resources */,
+				0C2CABBD1CE85AF2006094D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +752,16 @@
 				0C2CAB9F1CE858EC006094D1 /* ViewController.m in Sources */,
 				0C2CAB9C1CE858EC006094D1 /* AppDelegate.m in Sources */,
 				0C2CAB991CE858EC006094D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CABAC1CE85AF2006094D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CABBA1CE85AF2006094D1 /* ViewController.m in Sources */,
+				0C2CABB71CE85AF2006094D1 /* AppDelegate.m in Sources */,
+				0C2CABB41CE85AF2006094D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,6 +864,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C2CABA61CE858EC006094D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2CABBB1CE85AF2006094D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CABBC1CE85AF2006094D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2CABC01CE85AF2006094D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CABC11CE85AF2006094D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -919,6 +1025,28 @@
 				INFOPLIST_FILE = "06_ScrollView的KeyboardDismissMode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-6-ScrollView-KeyboardDismissMode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C2CABC51CE85AF2006094D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07_StatusBar文字颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-7-StatusBar----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C2CABC61CE85AF2006094D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07_StatusBar文字颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-7-StatusBar----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1091,6 +1219,14 @@
 			buildConfigurations = (
 				0C2CABAA1CE858EC006094D1 /* Debug */,
 				0C2CABAB1CE858EC006094D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C2CABC41CE85AF2006094D1 /* Build configuration list for PBXNativeTarget "07_StatusBar文字颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2CABC51CE85AF2006094D1 /* Debug */,
+				0C2CABC61CE85AF2006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
