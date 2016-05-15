@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2CAB2D1CE82A8F006094D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAB2C1CE82A8F006094D1 /* main.m */; };
+		0C2CAB301CE82A8F006094D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAB2F1CE82A8F006094D1 /* AppDelegate.m */; };
+		0C2CAB331CE82A8F006094D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAB321CE82A8F006094D1 /* ViewController.m */; };
+		0C2CAB361CE82A8F006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB341CE82A8F006094D1 /* Main.storyboard */; };
+		0C2CAB381CE82A8F006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB371CE82A8F006094D1 /* Assets.xcassets */; };
+		0C2CAB3B1CE82A8F006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB391CE82A8F006094D1 /* LaunchScreen.storyboard */; };
 		0C71354E1CE6BB6B00EBA14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71354D1CE6BB6B00EBA14C /* main.m */; };
 		0C7135511CE6BB6B00EBA14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135501CE6BB6B00EBA14C /* AppDelegate.m */; };
 		0C7135541CE6BB6B00EBA14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135531CE6BB6B00EBA14C /* ViewController.m */; };
@@ -22,6 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C2CAB291CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02_获取 UIColor 的 RGB 值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2CAB2C1CE82A8F006094D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C2CAB2E1CE82A8F006094D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C2CAB2F1CE82A8F006094D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C2CAB311CE82A8F006094D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C2CAB321CE82A8F006094D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C2CAB351CE82A8F006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C2CAB371CE82A8F006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C2CAB3A1CE82A8F006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C2CAB3C1CE82A8F006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7135491CE6BB6B00EBA14C /* Objective-C_201605.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201605.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C71354D1CE6BB6B00EBA14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C71354F1CE6BB6B00EBA14C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +61,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C2CAB261CE82A8F006094D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C7135461CE6BB6B00EBA14C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,11 +85,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C2CAB2A1CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值 */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CAB2E1CE82A8F006094D1 /* AppDelegate.h */,
+				0C2CAB2F1CE82A8F006094D1 /* AppDelegate.m */,
+				0C2CAB311CE82A8F006094D1 /* ViewController.h */,
+				0C2CAB321CE82A8F006094D1 /* ViewController.m */,
+				0C2CAB341CE82A8F006094D1 /* Main.storyboard */,
+				0C2CAB371CE82A8F006094D1 /* Assets.xcassets */,
+				0C2CAB391CE82A8F006094D1 /* LaunchScreen.storyboard */,
+				0C2CAB3C1CE82A8F006094D1 /* Info.plist */,
+				0C2CAB2B1CE82A8F006094D1 /* Supporting Files */,
+			);
+			path = "02_获取 UIColor 的 RGB 值";
+			sourceTree = "<group>";
+		};
+		0C2CAB2B1CE82A8F006094D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CAB2C1CE82A8F006094D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C7135401CE6BB6B00EBA14C = {
 			isa = PBXGroup;
 			children = (
 				0C71354B1CE6BB6B00EBA14C /* Objective-C_201605 */,
 				0C7135681CE6BBC600EBA14C /* 01_App_Launch_Image */,
+				0C2CAB2A1CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值 */,
 				0C71354A1CE6BB6B00EBA14C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +124,7 @@
 			children = (
 				0C7135491CE6BB6B00EBA14C /* Objective-C_201605.app */,
 				0C7135671CE6BBC600EBA14C /* 01_App_Launch_Image.app */,
+				0C2CAB291CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +180,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C2CAB281CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2CAB3F1CE82A8F006094D1 /* Build configuration list for PBXNativeTarget "02_获取 UIColor 的 RGB 值" */;
+			buildPhases = (
+				0C2CAB251CE82A8F006094D1 /* Sources */,
+				0C2CAB261CE82A8F006094D1 /* Frameworks */,
+				0C2CAB271CE82A8F006094D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02_获取 UIColor 的 RGB 值";
+			productName = "02_获取 UIColor 的 RGB 值";
+			productReference = 0C2CAB291CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C7135481CE6BB6B00EBA14C /* Objective-C_201605 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C7135601CE6BB6B00EBA14C /* Build configuration list for PBXNativeTarget "Objective-C_201605" */;
@@ -174,6 +240,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Yuen;
 				TargetAttributes = {
+					0C2CAB281CE82A8F006094D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0C7135481CE6BB6B00EBA14C = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -197,11 +266,22 @@
 			targets = (
 				0C7135481CE6BB6B00EBA14C /* Objective-C_201605 */,
 				0C7135661CE6BBC600EBA14C /* 01_App_Launch_Image */,
+				0C2CAB281CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C2CAB271CE82A8F006094D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CAB3B1CE82A8F006094D1 /* LaunchScreen.storyboard in Resources */,
+				0C2CAB381CE82A8F006094D1 /* Assets.xcassets in Resources */,
+				0C2CAB361CE82A8F006094D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C7135471CE6BB6B00EBA14C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +305,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C2CAB251CE82A8F006094D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CAB331CE82A8F006094D1 /* ViewController.m in Sources */,
+				0C2CAB301CE82A8F006094D1 /* AppDelegate.m in Sources */,
+				0C2CAB2D1CE82A8F006094D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C7135451CE6BB6B00EBA14C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +338,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0C2CAB341CE82A8F006094D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CAB351CE82A8F006094D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2CAB391CE82A8F006094D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CAB3A1CE82A8F006094D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		0C7135551CE6BB6B00EBA14C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +389,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C2CAB3D1CE82A8F006094D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02_获取 UIColor 的 RGB 值/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-2----UIColor---RGB--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C2CAB3E1CE82A8F006094D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02_获取 UIColor 的 RGB 值/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-2----UIColor---RGB--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0C71355E1CE6BB6B00EBA14C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -414,6 +542,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C2CAB3F1CE82A8F006094D1 /* Build configuration list for PBXNativeTarget "02_获取 UIColor 的 RGB 值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2CAB3D1CE82A8F006094D1 /* Debug */,
+				0C2CAB3E1CE82A8F006094D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0C7135441CE6BB6B00EBA14C /* Build configuration list for PBXProject "Objective-C_201605" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -430,6 +566,7 @@
 				0C7135621CE6BB6B00EBA14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C71357B1CE6BBC700EBA14C /* Build configuration list for PBXNativeTarget "01_App_Launch_Image" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +575,7 @@
 				0C71357D1CE6BBC700EBA14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
