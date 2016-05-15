@@ -19,6 +19,12 @@
 		0C2CAB511CE82BDF006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB4F1CE82BDF006094D1 /* Main.storyboard */; };
 		0C2CAB531CE82BDF006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB521CE82BDF006094D1 /* Assets.xcassets */; };
 		0C2CAB561CE82BDF006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB541CE82BDF006094D1 /* LaunchScreen.storyboard */; };
+		0C2CAB631CE85651006094D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAB621CE85651006094D1 /* main.m */; };
+		0C2CAB661CE85651006094D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAB651CE85651006094D1 /* AppDelegate.m */; };
+		0C2CAB691CE85651006094D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAB681CE85651006094D1 /* ViewController.m */; };
+		0C2CAB6C1CE85651006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB6A1CE85651006094D1 /* Main.storyboard */; };
+		0C2CAB6E1CE85651006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB6D1CE85651006094D1 /* Assets.xcassets */; };
+		0C2CAB711CE85651006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAB6F1CE85651006094D1 /* LaunchScreen.storyboard */; };
 		0C71354E1CE6BB6B00EBA14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71354D1CE6BB6B00EBA14C /* main.m */; };
 		0C7135511CE6BB6B00EBA14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135501CE6BB6B00EBA14C /* AppDelegate.m */; };
 		0C7135541CE6BB6B00EBA14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135531CE6BB6B00EBA14C /* ViewController.m */; };
@@ -54,6 +60,16 @@
 		0C2CAB521CE82BDF006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2CAB551CE82BDF006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C2CAB571CE82BDF006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2CAB5F1CE85651006094D1 /* 04_关闭/收起键盘方法总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04_关闭/收起键盘方法总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2CAB621CE85651006094D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C2CAB641CE85651006094D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C2CAB651CE85651006094D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C2CAB671CE85651006094D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C2CAB681CE85651006094D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C2CAB6B1CE85651006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C2CAB6D1CE85651006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C2CAB701CE85651006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C2CAB721CE85651006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7135491CE6BB6B00EBA14C /* Objective-C_201605.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201605.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C71354D1CE6BB6B00EBA14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C71354F1CE6BB6B00EBA14C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +101,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C2CAB411CE82BDF006094D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CAB5C1CE85651006094D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -156,6 +179,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C2CAB601CE85651006094D1 /* 04_关闭/收起键盘方法总结 */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CAB641CE85651006094D1 /* AppDelegate.h */,
+				0C2CAB651CE85651006094D1 /* AppDelegate.m */,
+				0C2CAB671CE85651006094D1 /* ViewController.h */,
+				0C2CAB681CE85651006094D1 /* ViewController.m */,
+				0C2CAB6A1CE85651006094D1 /* Main.storyboard */,
+				0C2CAB6D1CE85651006094D1 /* Assets.xcassets */,
+				0C2CAB6F1CE85651006094D1 /* LaunchScreen.storyboard */,
+				0C2CAB721CE85651006094D1 /* Info.plist */,
+				0C2CAB611CE85651006094D1 /* Supporting Files */,
+			);
+			path = "04_关闭/收起键盘方法总结";
+			sourceTree = "<group>";
+		};
+		0C2CAB611CE85651006094D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CAB621CE85651006094D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C7135401CE6BB6B00EBA14C = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +210,7 @@
 				0C7135681CE6BBC600EBA14C /* 01_App_Launch_Image */,
 				0C2CAB2A1CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值 */,
 				0C2CAB451CE82BDF006094D1 /* 03_计算两点之间的距离 */,
+				0C2CAB601CE85651006094D1 /* 04_关闭/收起键盘方法总结 */,
 				0C71354A1CE6BB6B00EBA14C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,6 +222,7 @@
 				0C7135671CE6BBC600EBA14C /* 01_App_Launch_Image.app */,
 				0C2CAB291CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值.app */,
 				0C2CAB441CE82BDF006094D1 /* 03_计算两点之间的距离.app */,
+				0C2CAB5F1CE85651006094D1 /* 04_关闭/收起键盘方法总结.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,6 +312,23 @@
 			productReference = 0C2CAB441CE82BDF006094D1 /* 03_计算两点之间的距离.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C2CAB5E1CE85651006094D1 /* 04_关闭/收起键盘方法总结 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2CAB731CE85651006094D1 /* Build configuration list for PBXNativeTarget "04_关闭/收起键盘方法总结" */;
+			buildPhases = (
+				0C2CAB5B1CE85651006094D1 /* Sources */,
+				0C2CAB5C1CE85651006094D1 /* Frameworks */,
+				0C2CAB5D1CE85651006094D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04_关闭/收起键盘方法总结";
+			productName = "04_关闭/收起键盘方法总结";
+			productReference = 0C2CAB5F1CE85651006094D1 /* 04_关闭/收起键盘方法总结.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C7135481CE6BB6B00EBA14C /* Objective-C_201605 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C7135601CE6BB6B00EBA14C /* Build configuration list for PBXNativeTarget "Objective-C_201605" */;
@@ -312,6 +378,9 @@
 					0C2CAB431CE82BDF006094D1 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C2CAB5E1CE85651006094D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0C7135481CE6BB6B00EBA14C = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -337,6 +406,7 @@
 				0C7135661CE6BBC600EBA14C /* 01_App_Launch_Image */,
 				0C2CAB281CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值 */,
 				0C2CAB431CE82BDF006094D1 /* 03_计算两点之间的距离 */,
+				0C2CAB5E1CE85651006094D1 /* 04_关闭/收起键盘方法总结 */,
 			);
 		};
 /* End PBXProject section */
@@ -359,6 +429,16 @@
 				0C2CAB561CE82BDF006094D1 /* LaunchScreen.storyboard in Resources */,
 				0C2CAB531CE82BDF006094D1 /* Assets.xcassets in Resources */,
 				0C2CAB511CE82BDF006094D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CAB5D1CE85651006094D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CAB711CE85651006094D1 /* LaunchScreen.storyboard in Resources */,
+				0C2CAB6E1CE85651006094D1 /* Assets.xcassets in Resources */,
+				0C2CAB6C1CE85651006094D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +482,16 @@
 				0C2CAB4E1CE82BDF006094D1 /* ViewController.m in Sources */,
 				0C2CAB4B1CE82BDF006094D1 /* AppDelegate.m in Sources */,
 				0C2CAB481CE82BDF006094D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CAB5B1CE85651006094D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CAB691CE85651006094D1 /* ViewController.m in Sources */,
+				0C2CAB661CE85651006094D1 /* AppDelegate.m in Sources */,
+				0C2CAB631CE85651006094D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +546,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C2CAB551CE82BDF006094D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2CAB6A1CE85651006094D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CAB6B1CE85651006094D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2CAB6F1CE85651006094D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CAB701CE85651006094D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -535,6 +641,28 @@
 				INFOPLIST_FILE = "03_计算两点之间的距离/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-3----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C2CAB741CE85651006094D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04_关闭/收起键盘方法总结/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-4------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C2CAB751CE85651006094D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04_关闭/收起键盘方法总结/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-4------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -683,6 +811,14 @@
 			buildConfigurations = (
 				0C2CAB591CE82BDF006094D1 /* Debug */,
 				0C2CAB5A1CE82BDF006094D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C2CAB731CE85651006094D1 /* Build configuration list for PBXNativeTarget "04_关闭/收起键盘方法总结" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2CAB741CE85651006094D1 /* Debug */,
+				0C2CAB751CE85651006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
