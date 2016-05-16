@@ -49,6 +49,12 @@
 		0C2CABD81CE9B15D006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABD61CE9B15D006094D1 /* Main.storyboard */; };
 		0C2CABDA1CE9B15D006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABD91CE9B15D006094D1 /* Assets.xcassets */; };
 		0C2CABDD1CE9B15D006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABDB1CE9B15D006094D1 /* LaunchScreen.storyboard */; };
+		0C2CABEA1CEA2830006094D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CABE91CEA2830006094D1 /* main.m */; };
+		0C2CABED1CEA2830006094D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CABEC1CEA2830006094D1 /* AppDelegate.m */; };
+		0C2CABF01CEA2830006094D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CABEF1CEA2830006094D1 /* ViewController.m */; };
+		0C2CABF31CEA2830006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABF11CEA2830006094D1 /* Main.storyboard */; };
+		0C2CABF51CEA2830006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABF41CEA2830006094D1 /* Assets.xcassets */; };
+		0C2CABF81CEA2830006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CABF61CEA2830006094D1 /* LaunchScreen.storyboard */; };
 		0C71354E1CE6BB6B00EBA14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71354D1CE6BB6B00EBA14C /* main.m */; };
 		0C7135511CE6BB6B00EBA14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135501CE6BB6B00EBA14C /* AppDelegate.m */; };
 		0C7135541CE6BB6B00EBA14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135531CE6BB6B00EBA14C /* ViewController.m */; };
@@ -134,6 +140,16 @@
 		0C2CABD91CE9B15D006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2CABDC1CE9B15D006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C2CABDE1CE9B15D006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2CABE61CEA2830006094D1 /* 09_将 color 转为 UIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "09_将 color 转为 UIImage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2CABE91CEA2830006094D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C2CABEB1CEA2830006094D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C2CABEC1CEA2830006094D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C2CABEE1CEA2830006094D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C2CABEF1CEA2830006094D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C2CABF21CEA2830006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C2CABF41CEA2830006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C2CABF71CEA2830006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C2CABF91CEA2830006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7135491CE6BB6B00EBA14C /* Objective-C_201605.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201605.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C71354D1CE6BB6B00EBA14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C71354F1CE6BB6B00EBA14C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -200,6 +216,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C2CABC81CE9B15D006094D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CABE31CEA2830006094D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,6 +414,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C2CABE71CEA2830006094D1 /* 09_将 color 转为 UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CABEB1CEA2830006094D1 /* AppDelegate.h */,
+				0C2CABEC1CEA2830006094D1 /* AppDelegate.m */,
+				0C2CABEE1CEA2830006094D1 /* ViewController.h */,
+				0C2CABEF1CEA2830006094D1 /* ViewController.m */,
+				0C2CABF11CEA2830006094D1 /* Main.storyboard */,
+				0C2CABF41CEA2830006094D1 /* Assets.xcassets */,
+				0C2CABF61CEA2830006094D1 /* LaunchScreen.storyboard */,
+				0C2CABF91CEA2830006094D1 /* Info.plist */,
+				0C2CABE81CEA2830006094D1 /* Supporting Files */,
+			);
+			path = "09_将 color 转为 UIImage";
+			sourceTree = "<group>";
+		};
+		0C2CABE81CEA2830006094D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CABE91CEA2830006094D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C7135401CE6BB6B00EBA14C = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +450,7 @@
 				0C2CAB961CE858EC006094D1 /* 06_ScrollView的KeyboardDismissMode */,
 				0C2CABB11CE85AF2006094D1 /* 07_StatusBar文字颜色 */,
 				0C2CABCC1CE9B15D006094D1 /* 08_将CGPoint存入数组 */,
+				0C2CABE71CEA2830006094D1 /* 09_将 color 转为 UIImage */,
 				0C71354A1CE6BB6B00EBA14C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -419,6 +467,7 @@
 				0C2CAB951CE858EC006094D1 /* 06_ScrollView的KeyboardDismissMode.app */,
 				0C2CABB01CE85AF2006094D1 /* 07_StatusBar文字颜色.app */,
 				0C2CABCB1CE9B15D006094D1 /* 08_将CGPoint存入数组.app */,
+				0C2CABE61CEA2830006094D1 /* 09_将 color 转为 UIImage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -593,6 +642,23 @@
 			productReference = 0C2CABCB1CE9B15D006094D1 /* 08_将CGPoint存入数组.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C2CABE51CEA2830006094D1 /* 09_将 color 转为 UIImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2CABFA1CEA2830006094D1 /* Build configuration list for PBXNativeTarget "09_将 color 转为 UIImage" */;
+			buildPhases = (
+				0C2CABE21CEA2830006094D1 /* Sources */,
+				0C2CABE31CEA2830006094D1 /* Frameworks */,
+				0C2CABE41CEA2830006094D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09_将 color 转为 UIImage";
+			productName = "09_将 color 转为 UIImage";
+			productReference = 0C2CABE61CEA2830006094D1 /* 09_将 color 转为 UIImage.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C7135481CE6BB6B00EBA14C /* Objective-C_201605 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C7135601CE6BB6B00EBA14C /* Build configuration list for PBXNativeTarget "Objective-C_201605" */;
@@ -657,6 +723,9 @@
 					0C2CABCA1CE9B15D006094D1 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C2CABE51CEA2830006094D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0C7135481CE6BB6B00EBA14C = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -687,6 +756,7 @@
 				0C2CAB941CE858EC006094D1 /* 06_ScrollView的KeyboardDismissMode */,
 				0C2CABAF1CE85AF2006094D1 /* 07_StatusBar文字颜色 */,
 				0C2CABCA1CE9B15D006094D1 /* 08_将CGPoint存入数组 */,
+				0C2CABE51CEA2830006094D1 /* 09_将 color 转为 UIImage */,
 			);
 		};
 /* End PBXProject section */
@@ -759,6 +829,16 @@
 				0C2CABDD1CE9B15D006094D1 /* LaunchScreen.storyboard in Resources */,
 				0C2CABDA1CE9B15D006094D1 /* Assets.xcassets in Resources */,
 				0C2CABD81CE9B15D006094D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CABE41CEA2830006094D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CABF81CEA2830006094D1 /* LaunchScreen.storyboard in Resources */,
+				0C2CABF51CEA2830006094D1 /* Assets.xcassets in Resources */,
+				0C2CABF31CEA2830006094D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +932,16 @@
 				0C2CABD51CE9B15D006094D1 /* ViewController.m in Sources */,
 				0C2CABD21CE9B15D006094D1 /* AppDelegate.m in Sources */,
 				0C2CABCF1CE9B15D006094D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CABE21CEA2830006094D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CABF01CEA2830006094D1 /* ViewController.m in Sources */,
+				0C2CABED1CEA2830006094D1 /* AppDelegate.m in Sources */,
+				0C2CABEA1CEA2830006094D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -986,6 +1076,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C2CABDC1CE9B15D006094D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2CABF11CEA2830006094D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CABF21CEA2830006094D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2CABF61CEA2830006094D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CABF71CEA2830006094D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1179,6 +1285,28 @@
 			};
 			name = Release;
 		};
+		0C2CABFB1CEA2830006094D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "09_将 color 转为 UIImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-9---color----UIImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C2CABFC1CEA2830006094D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "09_将 color 转为 UIImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-9---color----UIImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0C71355E1CE6BB6B00EBA14C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1363,6 +1491,14 @@
 			buildConfigurations = (
 				0C2CABE01CE9B15D006094D1 /* Debug */,
 				0C2CABE11CE9B15D006094D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C2CABFA1CEA2830006094D1 /* Build configuration list for PBXNativeTarget "09_将 color 转为 UIImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2CABFB1CEA2830006094D1 /* Debug */,
+				0C2CABFC1CEA2830006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
