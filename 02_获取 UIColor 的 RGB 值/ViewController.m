@@ -17,10 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    NSUInteger R = (arc4random() % 256) ;
-    NSUInteger G = (arc4random() % 256) ;
-    NSUInteger B = (arc4random() % 256) ;
+
+    NSUInteger R = (arc4random() % 256);
+    NSUInteger G = (arc4random() % 256);
+    NSUInteger B = (arc4random() % 256);
     UIColor *randomColor = [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1];
 
     /**
