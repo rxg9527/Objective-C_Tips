@@ -12,11 +12,19 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    NSDate *_birthDate;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSDateComponents *dateComponents = [[NSDateComponents alloc] init];
+    [dateComponents setYear:-40];
+    _birthDate = [gregorian dateByAddingComponents:dateComponents toDate:[NSDate date] options:0];
+    NSLog(@"%@", _birthDate);
 }
 
 - (void)didReceiveMemoryWarning {
