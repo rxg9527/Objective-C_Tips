@@ -61,6 +61,12 @@
 		0C2CAC0E1CEB7BE3006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAC0C1CEB7BE3006094D1 /* Main.storyboard */; };
 		0C2CAC101CEB7BE3006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAC0F1CEB7BE3006094D1 /* Assets.xcassets */; };
 		0C2CAC131CEB7BE3006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAC111CEB7BE3006094D1 /* LaunchScreen.storyboard */; };
+		0C2CAC201CEB7CE0006094D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAC1F1CEB7CE0006094D1 /* main.m */; };
+		0C2CAC231CEB7CE0006094D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAC221CEB7CE0006094D1 /* AppDelegate.m */; };
+		0C2CAC261CEB7CE0006094D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAC251CEB7CE0006094D1 /* ViewController.m */; };
+		0C2CAC291CEB7CE0006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAC271CEB7CE0006094D1 /* Main.storyboard */; };
+		0C2CAC2B1CEB7CE0006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAC2A1CEB7CE0006094D1 /* Assets.xcassets */; };
+		0C2CAC2E1CEB7CE0006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAC2C1CEB7CE0006094D1 /* LaunchScreen.storyboard */; };
 		0C71354E1CE6BB6B00EBA14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71354D1CE6BB6B00EBA14C /* main.m */; };
 		0C7135511CE6BB6B00EBA14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135501CE6BB6B00EBA14C /* AppDelegate.m */; };
 		0C7135541CE6BB6B00EBA14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135531CE6BB6B00EBA14C /* ViewController.m */; };
@@ -166,6 +172,16 @@
 		0C2CAC0F1CEB7BE3006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2CAC121CEB7BE3006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C2CAC141CEB7BE3006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2CAC1C1CEB7CE0006094D1 /* 11_NSDate 获取几年前的时间.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "11_NSDate 获取几年前的时间.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2CAC1F1CEB7CE0006094D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C2CAC211CEB7CE0006094D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C2CAC221CEB7CE0006094D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C2CAC241CEB7CE0006094D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C2CAC251CEB7CE0006094D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C2CAC281CEB7CE0006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C2CAC2A1CEB7CE0006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C2CAC2D1CEB7CE0006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C2CAC2F1CEB7CE0006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7135491CE6BB6B00EBA14C /* Objective-C_201605.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201605.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C71354D1CE6BB6B00EBA14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C71354F1CE6BB6B00EBA14C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -246,6 +262,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C2CABFE1CEB7BE3006094D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CAC191CEB7CE0006094D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,6 +508,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C2CAC1D1CEB7CE0006094D1 /* 11_NSDate 获取几年前的时间 */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CAC211CEB7CE0006094D1 /* AppDelegate.h */,
+				0C2CAC221CEB7CE0006094D1 /* AppDelegate.m */,
+				0C2CAC241CEB7CE0006094D1 /* ViewController.h */,
+				0C2CAC251CEB7CE0006094D1 /* ViewController.m */,
+				0C2CAC271CEB7CE0006094D1 /* Main.storyboard */,
+				0C2CAC2A1CEB7CE0006094D1 /* Assets.xcassets */,
+				0C2CAC2C1CEB7CE0006094D1 /* LaunchScreen.storyboard */,
+				0C2CAC2F1CEB7CE0006094D1 /* Info.plist */,
+				0C2CAC1E1CEB7CE0006094D1 /* Supporting Files */,
+			);
+			path = "11_NSDate 获取几年前的时间";
+			sourceTree = "<group>";
+		};
+		0C2CAC1E1CEB7CE0006094D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2CAC1F1CEB7CE0006094D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C7135401CE6BB6B00EBA14C = {
 			isa = PBXGroup;
 			children = (
@@ -499,6 +546,7 @@
 				0C2CABCC1CE9B15D006094D1 /* 08_将CGPoint存入数组 */,
 				0C2CABE71CEA2830006094D1 /* 09_将 color 转为 UIImage */,
 				0C2CAC021CEB7BE3006094D1 /* 10_NSTimer 用法 */,
+				0C2CAC1D1CEB7CE0006094D1 /* 11_NSDate 获取几年前的时间 */,
 				0C71354A1CE6BB6B00EBA14C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -517,6 +565,7 @@
 				0C2CABCB1CE9B15D006094D1 /* 08_将CGPoint存入数组.app */,
 				0C2CABE61CEA2830006094D1 /* 09_将 color 转为 UIImage.app */,
 				0C2CAC011CEB7BE3006094D1 /* 10_NSTimer 用法.app */,
+				0C2CAC1C1CEB7CE0006094D1 /* 11_NSDate 获取几年前的时间.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -725,6 +774,23 @@
 			productReference = 0C2CAC011CEB7BE3006094D1 /* 10_NSTimer 用法.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C2CAC1B1CEB7CE0006094D1 /* 11_NSDate 获取几年前的时间 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2CAC301CEB7CE0006094D1 /* Build configuration list for PBXNativeTarget "11_NSDate 获取几年前的时间" */;
+			buildPhases = (
+				0C2CAC181CEB7CE0006094D1 /* Sources */,
+				0C2CAC191CEB7CE0006094D1 /* Frameworks */,
+				0C2CAC1A1CEB7CE0006094D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11_NSDate 获取几年前的时间";
+			productName = "11_NSDate 获取几年前的时间";
+			productReference = 0C2CAC1C1CEB7CE0006094D1 /* 11_NSDate 获取几年前的时间.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C7135481CE6BB6B00EBA14C /* Objective-C_201605 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C7135601CE6BB6B00EBA14C /* Build configuration list for PBXNativeTarget "Objective-C_201605" */;
@@ -795,6 +861,9 @@
 					0C2CAC001CEB7BE3006094D1 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C2CAC1B1CEB7CE0006094D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0C7135481CE6BB6B00EBA14C = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -827,6 +896,7 @@
 				0C2CABCA1CE9B15D006094D1 /* 08_将CGPoint存入数组 */,
 				0C2CABE51CEA2830006094D1 /* 09_将 color 转为 UIImage */,
 				0C2CAC001CEB7BE3006094D1 /* 10_NSTimer 用法 */,
+				0C2CAC1B1CEB7CE0006094D1 /* 11_NSDate 获取几年前的时间 */,
 			);
 		};
 /* End PBXProject section */
@@ -919,6 +989,16 @@
 				0C2CAC131CEB7BE3006094D1 /* LaunchScreen.storyboard in Resources */,
 				0C2CAC101CEB7BE3006094D1 /* Assets.xcassets in Resources */,
 				0C2CAC0E1CEB7BE3006094D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CAC1A1CEB7CE0006094D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CAC2E1CEB7CE0006094D1 /* LaunchScreen.storyboard in Resources */,
+				0C2CAC2B1CEB7CE0006094D1 /* Assets.xcassets in Resources */,
+				0C2CAC291CEB7CE0006094D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1032,6 +1112,16 @@
 				0C2CAC0B1CEB7BE3006094D1 /* ViewController.m in Sources */,
 				0C2CAC081CEB7BE3006094D1 /* AppDelegate.m in Sources */,
 				0C2CAC051CEB7BE3006094D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2CAC181CEB7CE0006094D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CAC261CEB7CE0006094D1 /* ViewController.m in Sources */,
+				0C2CAC231CEB7CE0006094D1 /* AppDelegate.m in Sources */,
+				0C2CAC201CEB7CE0006094D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1198,6 +1288,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C2CAC121CEB7BE3006094D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2CAC271CEB7CE0006094D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CAC281CEB7CE0006094D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2CAC2C1CEB7CE0006094D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2CAC2D1CEB7CE0006094D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1435,6 +1541,28 @@
 			};
 			name = Release;
 		};
+		0C2CAC311CEB7CE0006094D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "11_NSDate 获取几年前的时间/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-1-NSDate---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C2CAC321CEB7CE0006094D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "11_NSDate 获取几年前的时间/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-1-NSDate---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0C71355E1CE6BB6B00EBA14C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1635,6 +1763,14 @@
 			buildConfigurations = (
 				0C2CAC161CEB7BE3006094D1 /* Debug */,
 				0C2CAC171CEB7BE3006094D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C2CAC301CEB7CE0006094D1 /* Build configuration list for PBXNativeTarget "11_NSDate 获取几年前的时间" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2CAC311CEB7CE0006094D1 /* Debug */,
+				0C2CAC321CEB7CE0006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
