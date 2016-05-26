@@ -85,6 +85,12 @@
 		0C2CAC7A1CEB807E006094D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAC781CEB807E006094D1 /* Main.storyboard */; };
 		0C2CAC7C1CEB807E006094D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAC7B1CEB807E006094D1 /* Assets.xcassets */; };
 		0C2CAC7F1CEB807E006094D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2CAC7D1CEB807E006094D1 /* LaunchScreen.storyboard */; };
+		0C3D302B1CF69C9F00E1D81C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D302A1CF69C9F00E1D81C /* main.m */; };
+		0C3D302E1CF69C9F00E1D81C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D302D1CF69C9F00E1D81C /* AppDelegate.m */; };
+		0C3D30311CF69C9F00E1D81C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D30301CF69C9F00E1D81C /* ViewController.m */; };
+		0C3D30341CF69C9F00E1D81C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D30321CF69C9F00E1D81C /* Main.storyboard */; };
+		0C3D30361CF69C9F00E1D81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D30351CF69C9F00E1D81C /* Assets.xcassets */; };
+		0C3D30391CF69C9F00E1D81C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D30371CF69C9F00E1D81C /* LaunchScreen.storyboard */; };
 		0C71354E1CE6BB6B00EBA14C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71354D1CE6BB6B00EBA14C /* main.m */; };
 		0C7135511CE6BB6B00EBA14C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135501CE6BB6B00EBA14C /* AppDelegate.m */; };
 		0C7135541CE6BB6B00EBA14C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7135531CE6BB6B00EBA14C /* ViewController.m */; };
@@ -230,6 +236,16 @@
 		0C2CAC7B1CEB807E006094D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2CAC7E1CEB807E006094D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C2CAC801CEB807E006094D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3D30271CF69C9F00E1D81C /* 15_NSAttributedString 图文混排.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "15_NSAttributedString 图文混排.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3D302A1CF69C9F00E1D81C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C3D302C1CF69C9F00E1D81C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C3D302D1CF69C9F00E1D81C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C3D302F1CF69C9F00E1D81C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C3D30301CF69C9F00E1D81C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C3D30331CF69C9F00E1D81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C3D30351CF69C9F00E1D81C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C3D30381CF69C9F00E1D81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C3D303A1CF69C9F00E1D81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7135491CE6BB6B00EBA14C /* Objective-C_201605.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201605.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C71354D1CE6BB6B00EBA14C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C71354F1CE6BB6B00EBA14C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -338,6 +354,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C2CAC6A1CEB807E006094D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3D30241CF69C9F00E1D81C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -673,6 +696,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C3D30281CF69C9F00E1D81C /* 15_NSAttributedString 图文混排 */ = {
+			isa = PBXGroup;
+			children = (
+				0C3D302C1CF69C9F00E1D81C /* AppDelegate.h */,
+				0C3D302D1CF69C9F00E1D81C /* AppDelegate.m */,
+				0C3D302F1CF69C9F00E1D81C /* ViewController.h */,
+				0C3D30301CF69C9F00E1D81C /* ViewController.m */,
+				0C3D30321CF69C9F00E1D81C /* Main.storyboard */,
+				0C3D30351CF69C9F00E1D81C /* Assets.xcassets */,
+				0C3D30371CF69C9F00E1D81C /* LaunchScreen.storyboard */,
+				0C3D303A1CF69C9F00E1D81C /* Info.plist */,
+				0C3D30291CF69C9F00E1D81C /* Supporting Files */,
+			);
+			path = "15_NSAttributedString 图文混排";
+			sourceTree = "<group>";
+		};
+		0C3D30291CF69C9F00E1D81C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3D302A1CF69C9F00E1D81C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C7135401CE6BB6B00EBA14C = {
 			isa = PBXGroup;
 			children = (
@@ -691,6 +738,7 @@
 				0C2CAC381CEB7E1C006094D1 /* 12_iOS加载启动图的时候隐藏 StatusBar */,
 				0C2CAC531CEB7FFE006094D1 /* 13_打印 % */,
 				0C2CAC6E1CEB807E006094D1 /* 14_APP 屏蔽触发事件 */,
+				0C3D30281CF69C9F00E1D81C /* 15_NSAttributedString 图文混排 */,
 				0C71354A1CE6BB6B00EBA14C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -713,6 +761,7 @@
 				0C2CAC371CEB7E1C006094D1 /* 12_iOS加载启动图的时候隐藏 StatusBar.app */,
 				0C2CAC521CEB7FFE006094D1 /* 13_打印 %.app */,
 				0C2CAC6D1CEB807E006094D1 /* 14_APP 屏蔽触发事件.app */,
+				0C3D30271CF69C9F00E1D81C /* 15_NSAttributedString 图文混排.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -989,6 +1038,23 @@
 			productReference = 0C2CAC6D1CEB807E006094D1 /* 14_APP 屏蔽触发事件.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C3D30261CF69C9F00E1D81C /* 15_NSAttributedString 图文混排 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3D303D1CF69CA000E1D81C /* Build configuration list for PBXNativeTarget "15_NSAttributedString 图文混排" */;
+			buildPhases = (
+				0C3D30231CF69C9F00E1D81C /* Sources */,
+				0C3D30241CF69C9F00E1D81C /* Frameworks */,
+				0C3D30251CF69C9F00E1D81C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15_NSAttributedString 图文混排";
+			productName = "15_NSAttributedString 图文混排";
+			productReference = 0C3D30271CF69C9F00E1D81C /* 15_NSAttributedString 图文混排.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C7135481CE6BB6B00EBA14C /* Objective-C_201605 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C7135601CE6BB6B00EBA14C /* Build configuration list for PBXNativeTarget "Objective-C_201605" */;
@@ -1071,6 +1137,9 @@
 					0C2CAC6C1CEB807E006094D1 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C3D30261CF69C9F00E1D81C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					0C7135481CE6BB6B00EBA14C = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -1107,6 +1176,7 @@
 				0C2CAC361CEB7E1C006094D1 /* 12_iOS加载启动图的时候隐藏 StatusBar */,
 				0C2CAC511CEB7FFE006094D1 /* 13_打印 % */,
 				0C2CAC6C1CEB807E006094D1 /* 14_APP 屏蔽触发事件 */,
+				0C3D30261CF69C9F00E1D81C /* 15_NSAttributedString 图文混排 */,
 			);
 		};
 /* End PBXProject section */
@@ -1239,6 +1309,16 @@
 				0C2CAC7F1CEB807E006094D1 /* LaunchScreen.storyboard in Resources */,
 				0C2CAC7C1CEB807E006094D1 /* Assets.xcassets in Resources */,
 				0C2CAC7A1CEB807E006094D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3D30251CF69C9F00E1D81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3D30391CF69C9F00E1D81C /* LaunchScreen.storyboard in Resources */,
+				0C3D30361CF69C9F00E1D81C /* Assets.xcassets in Resources */,
+				0C3D30341CF69C9F00E1D81C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1392,6 +1472,16 @@
 				0C2CAC771CEB807E006094D1 /* ViewController.m in Sources */,
 				0C2CAC741CEB807E006094D1 /* AppDelegate.m in Sources */,
 				0C2CAC711CEB807E006094D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C3D30231CF69C9F00E1D81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3D30311CF69C9F00E1D81C /* ViewController.m in Sources */,
+				0C3D302E1CF69C9F00E1D81C /* AppDelegate.m in Sources */,
+				0C3D302B1CF69C9F00E1D81C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1622,6 +1712,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C2CAC7E1CEB807E006094D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C3D30321CF69C9F00E1D81C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C3D30331CF69C9F00E1D81C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C3D30371CF69C9F00E1D81C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C3D30381CF69C9F00E1D81C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1947,6 +2053,32 @@
 			};
 			name = Release;
 		};
+		0C3D303B1CF69CA000E1D81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "15_NSAttributedString 图文混排/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-5-NSAttributedString-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C3D303C1CF69CA000E1D81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "15_NSAttributedString 图文混排/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-5-NSAttributedString-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0C71355E1CE6BB6B00EBA14C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2085,6 +2217,7 @@
 				0C2CAB3E1CE82A8F006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CAB581CE82BDF006094D1 /* Build configuration list for PBXNativeTarget "03_计算两点之间的距离" */ = {
 			isa = XCConfigurationList;
@@ -2093,6 +2226,7 @@
 				0C2CAB5A1CE82BDF006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CAB731CE85651006094D1 /* Build configuration list for PBXNativeTarget "04_关闭/收起键盘方法总结" */ = {
 			isa = XCConfigurationList;
@@ -2101,6 +2235,7 @@
 				0C2CAB751CE85651006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CAB8E1CE8574B006094D1 /* Build configuration list for PBXNativeTarget "05_iOS模拟器的键盘事件" */ = {
 			isa = XCConfigurationList;
@@ -2109,6 +2244,7 @@
 				0C2CAB901CE8574B006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CABA91CE858EC006094D1 /* Build configuration list for PBXNativeTarget "06_ScrollView的KeyboardDismissMode" */ = {
 			isa = XCConfigurationList;
@@ -2117,6 +2253,7 @@
 				0C2CABAB1CE858EC006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CABC41CE85AF2006094D1 /* Build configuration list for PBXNativeTarget "07_StatusBar文字颜色" */ = {
 			isa = XCConfigurationList;
@@ -2125,6 +2262,7 @@
 				0C2CABC61CE85AF2006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CABDF1CE9B15D006094D1 /* Build configuration list for PBXNativeTarget "08_将CGPoint存入数组" */ = {
 			isa = XCConfigurationList;
@@ -2133,6 +2271,7 @@
 				0C2CABE11CE9B15D006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CABFA1CEA2830006094D1 /* Build configuration list for PBXNativeTarget "09_将 color 转为 UIImage" */ = {
 			isa = XCConfigurationList;
@@ -2141,6 +2280,7 @@
 				0C2CABFC1CEA2830006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CAC151CEB7BE3006094D1 /* Build configuration list for PBXNativeTarget "10_NSTimer 用法" */ = {
 			isa = XCConfigurationList;
@@ -2149,6 +2289,7 @@
 				0C2CAC171CEB7BE3006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CAC301CEB7CE0006094D1 /* Build configuration list for PBXNativeTarget "11_NSDate 获取几年前的时间" */ = {
 			isa = XCConfigurationList;
@@ -2157,6 +2298,7 @@
 				0C2CAC321CEB7CE0006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CAC4B1CEB7E1D006094D1 /* Build configuration list for PBXNativeTarget "12_iOS加载启动图的时候隐藏 StatusBar" */ = {
 			isa = XCConfigurationList;
@@ -2165,6 +2307,7 @@
 				0C2CAC4D1CEB7E1D006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CAC661CEB7FFE006094D1 /* Build configuration list for PBXNativeTarget "13_打印 %" */ = {
 			isa = XCConfigurationList;
@@ -2173,12 +2316,22 @@
 				0C2CAC681CEB7FFE006094D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C2CAC811CEB807E006094D1 /* Build configuration list for PBXNativeTarget "14_APP 屏蔽触发事件" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C2CAC821CEB807E006094D1 /* Debug */,
 				0C2CAC831CEB807E006094D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3D303D1CF69CA000E1D81C /* Build configuration list for PBXNativeTarget "15_NSAttributedString 图文混排" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3D303B1CF69CA000E1D81C /* Debug */,
+				0C3D303C1CF69CA000E1D81C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
