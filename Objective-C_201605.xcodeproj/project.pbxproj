@@ -282,6 +282,7 @@
 		0C9A4E161CF94D9C00B1F5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C9A4E191CF94D9C00B1F5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C9A4E1B1CF94D9C00B1F5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9A4E1F1CF94E3F00B1F5CB /* MacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -846,6 +847,7 @@
 				0C9A4E0E1CF94D9C00B1F5CB /* AppDelegate.m */,
 				0C9A4E101CF94D9C00B1F5CB /* ViewController.h */,
 				0C9A4E111CF94D9C00B1F5CB /* ViewController.m */,
+				0C9A4E1F1CF94E3F00B1F5CB /* MacroDefine.h */,
 				0C9A4E131CF94D9C00B1F5CB /* Main.storyboard */,
 				0C9A4E161CF94D9C00B1F5CB /* Assets.xcassets */,
 				0C9A4E181CF94D9C00B1F5CB /* LaunchScreen.storyboard */,
