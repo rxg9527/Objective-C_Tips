@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *trimString = @"334$%&sdh^&：￥352";
+    NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"@／：；（）¥「」＂、[]{}#%-*+=_\\|~＜＞$€^•'@#$%^&*()_+'\""];
+    // 过滤字符串的特殊字符
+    NSString *newString = [trimString stringByTrimmingCharactersInSet:set];
+    NSLog(@"%@", newString);
 }
 
 - (void)didReceiveMemoryWarning {
