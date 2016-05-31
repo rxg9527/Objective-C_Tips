@@ -19,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //     Do any additional setup after loading the view, typically from a nib.
+    /**
+     *  Margins无法处理
+     */
     if ([self.tableView respondsToSelector:@selector(setSeparatorInset:)]) {
         [self.tableView setSeparatorInset:UIEdgeInsetsZero];
     }
