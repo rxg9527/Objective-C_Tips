@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C22C56F1D0565A000235F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22C56E1D0565A000235F49 /* main.m */; };
+		0C22C5721D0565A000235F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22C5711D0565A000235F49 /* AppDelegate.m */; };
+		0C22C5751D0565A000235F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22C5741D0565A000235F49 /* ViewController.m */; };
+		0C22C5781D0565A000235F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C22C5761D0565A000235F49 /* Main.storyboard */; };
+		0C22C57A1D0565A000235F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C22C5791D0565A000235F49 /* Assets.xcassets */; };
+		0C22C57D1D0565A000235F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C22C57B1D0565A000235F49 /* LaunchScreen.storyboard */; };
 		0C2CAB2D1CE82A8F006094D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAB2C1CE82A8F006094D1 /* main.m */; };
 		0C2CAB301CE82A8F006094D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAB2F1CE82A8F006094D1 /* AppDelegate.m */; };
 		0C2CAB331CE82A8F006094D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CAB321CE82A8F006094D1 /* ViewController.m */; };
@@ -130,6 +136,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C22C56B1D0565A000235F49 /* 20_TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20_TextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C22C56E1D0565A000235F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C22C5701D0565A000235F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C22C5711D0565A000235F49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C22C5731D0565A000235F49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C22C5741D0565A000235F49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C22C5771D0565A000235F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C22C5791D0565A000235F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C22C57C1D0565A000235F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C22C57E1D0565A000235F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C2CAB291CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02_获取 UIColor 的 RGB 值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2CAB2C1CE82A8F006094D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C2CAB2E1CE82A8F006094D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -334,6 +350,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C22C5681D0565A000235F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C2CAB261CE82A8F006094D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -477,6 +500,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C22C56C1D0565A000235F49 /* 20_TextField */ = {
+			isa = PBXGroup;
+			children = (
+				0C22C5701D0565A000235F49 /* AppDelegate.h */,
+				0C22C5711D0565A000235F49 /* AppDelegate.m */,
+				0C22C5731D0565A000235F49 /* ViewController.h */,
+				0C22C5741D0565A000235F49 /* ViewController.m */,
+				0C22C5761D0565A000235F49 /* Main.storyboard */,
+				0C22C5791D0565A000235F49 /* Assets.xcassets */,
+				0C22C57B1D0565A000235F49 /* LaunchScreen.storyboard */,
+				0C22C57E1D0565A000235F49 /* Info.plist */,
+				0C22C56D1D0565A000235F49 /* Supporting Files */,
+			);
+			path = 20_TextField;
+			sourceTree = "<group>";
+		};
+		0C22C56D1D0565A000235F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C22C56E1D0565A000235F49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C2CAB2A1CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值 */ = {
 			isa = PBXGroup;
 			children = (
@@ -836,6 +883,7 @@
 				0CC4F4081CFD354900AA9E4F /* 17_打印所有子视图 */,
 				0CC4F42D1CFD70DF00AA9E4F /* 18_NSString过滤特殊字符 */,
 				0CC4F4481CFD732D00AA9E4F /* 19_去掉TableView分割线多余15像素 */,
+				0C22C56C1D0565A000235F49 /* 20_TextField */,
 				0C71354A1CE6BB6B00EBA14C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -863,6 +911,7 @@
 				0CC4F4071CFD354900AA9E4F /* 17_打印所有子视图.app */,
 				0CC4F42C1CFD70DE00AA9E4F /* 18_NSString过滤特殊字符.app */,
 				0CC4F4471CFD732D00AA9E4F /* 19_去掉TableView分割线多余15像素.app */,
+				0C22C56B1D0565A000235F49 /* 20_TextField.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1015,6 +1064,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C22C56A1D0565A000235F49 /* 20_TextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C22C5811D0565A000235F49 /* Build configuration list for PBXNativeTarget "20_TextField" */;
+			buildPhases = (
+				0C22C5671D0565A000235F49 /* Sources */,
+				0C22C5681D0565A000235F49 /* Frameworks */,
+				0C22C5691D0565A000235F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 20_TextField;
+			productName = 20_TextField;
+			productReference = 0C22C56B1D0565A000235F49 /* 20_TextField.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C2CAB281CE82A8F006094D1 /* 02_获取 UIColor 的 RGB 值 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C2CAB3F1CE82A8F006094D1 /* Build configuration list for PBXNativeTarget "02_获取 UIColor 的 RGB 值" */;
@@ -1364,6 +1430,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Yuen;
 				TargetAttributes = {
+					0C22C56A1D0565A000235F49 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					0C2CAB281CE82A8F006094D1 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -1459,11 +1528,22 @@
 				0CC4F4061CFD354900AA9E4F /* 17_打印所有子视图 */,
 				0CC4F42B1CFD70DE00AA9E4F /* 18_NSString过滤特殊字符 */,
 				0CC4F4461CFD732D00AA9E4F /* 19_去掉TableView分割线多余15像素 */,
+				0C22C56A1D0565A000235F49 /* 20_TextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C22C5691D0565A000235F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C22C57D1D0565A000235F49 /* LaunchScreen.storyboard in Resources */,
+				0C22C57A1D0565A000235F49 /* Assets.xcassets in Resources */,
+				0C22C5781D0565A000235F49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C2CAB271CE82A8F006094D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1667,6 +1747,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C22C5671D0565A000235F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C22C5751D0565A000235F49 /* ViewController.m in Sources */,
+				0C22C5721D0565A000235F49 /* AppDelegate.m in Sources */,
+				0C22C56F1D0565A000235F49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C2CAB251CE82A8F006094D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1870,6 +1960,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0C22C5761D0565A000235F49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C22C5771D0565A000235F49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C22C57B1D0565A000235F49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C22C57C1D0565A000235F49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		0C2CAB341CE82A8F006094D1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2193,6 +2299,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C22C57F1D0565A000235F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = 20_TextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-0-TextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C22C5801D0565A000235F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = 20_TextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-0-TextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0C2CAB3D1CE82A8F006094D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2736,6 +2868,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C22C5811D0565A000235F49 /* Build configuration list for PBXNativeTarget "20_TextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C22C57F1D0565A000235F49 /* Debug */,
+				0C22C5801D0565A000235F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0C2CAB3F1CE82A8F006094D1 /* Build configuration list for PBXNativeTarget "02_获取 UIColor 的 RGB 值" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2905,6 +3045,7 @@
 				0CC4F41C1CFD354900AA9E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CC4F4401CFD70DF00AA9E4F /* Build configuration list for PBXNativeTarget "18_NSString过滤特殊字符" */ = {
 			isa = XCConfigurationList;
@@ -2913,6 +3054,7 @@
 				0CC4F4421CFD70DF00AA9E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CC4F45B1CFD732D00AA9E4F /* Build configuration list for PBXNativeTarget "19_去掉TableView分割线多余15像素" */ = {
 			isa = XCConfigurationList;
@@ -2921,6 +3063,7 @@
 				0CC4F45D1CFD732D00AA9E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
