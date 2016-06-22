@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62cdd5e9-1ccc-497d-af51-d3d94ea7c79e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21_AreaPickerView/XGAreaPickerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21_AreaPickerView/XGAreaPickerView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21_AreaPickerView/XGAreaPickerView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21_AreaPickerView/area.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/21_AreaPickerView/ViewController.m" afterPath="$PROJECT_DIR$/21_AreaPickerView/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Objective-C_201605.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Objective-C_201605.xcodeproj/project.pbxproj" />
+    </list>
+    <ignored path="Objective-C_201605.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="FavoritesManager">
+    <favorites_list name="Objective-C_201605" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="39" />
+    <option name="y" value="23" />
+    <option name="width" value="1401" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Objective-C_201605" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Objective-C_201605" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21_AreaPickerView" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="RunManager" selected="Application.01_App_Launch_Image">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="Objective-C_201605" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="Objective-C_201605" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="01_App_Launch_Image" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="01_App_Launch_Image" CONFIG_NAME="Debug" SCHEME_NAME="01_App_Launch_Image" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="01_App_Launch_Image" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="02_获取 UIColor 的 RGB 值" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="02_获取 UIColor 的 RGB 值" CONFIG_NAME="Debug" SCHEME_NAME="02_获取 UIColor 的 RGB 值" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="02_获取 UIColor 的 RGB 值" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="03_计算两点之间的距离" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="03_计算两点之间的距离" CONFIG_NAME="Debug" SCHEME_NAME="03_计算两点之间的距离" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="03_计算两点之间的距离" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="05_iOS模拟器的键盘事件" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="05_iOS模拟器的键盘事件" CONFIG_NAME="Debug" SCHEME_NAME="05_iOS模拟器的键盘事件" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="05_iOS模拟器的键盘事件" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="06_ScrollView的KeyboardDismissMode" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="06_ScrollView的KeyboardDismissMode" CONFIG_NAME="Debug" SCHEME_NAME="06_ScrollView的KeyboardDismissMode" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="06_ScrollView的KeyboardDismissMode" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="07_StatusBar文字颜色" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="07_StatusBar文字颜色" CONFIG_NAME="Debug" SCHEME_NAME="07_StatusBar文字颜色" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="07_StatusBar文字颜色" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="08_将CGPoint存入数组" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="08_将CGPoint存入数组" CONFIG_NAME="Debug" SCHEME_NAME="08_将CGPoint存入数组" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="08_将CGPoint存入数组" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="09_将 color 转为 UIImage" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="09_将 color 转为 UIImage" CONFIG_NAME="Debug" SCHEME_NAME="09_将 color 转为 UIImage" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="09_将 color 转为 UIImage" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="10_NSTimer 用法" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="10_NSTimer 用法" CONFIG_NAME="Debug" SCHEME_NAME="10_NSTimer 用法" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="10_NSTimer 用法" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="11_NSDate 获取几年前的时间" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="11_NSDate 获取几年前的时间" CONFIG_NAME="Debug" SCHEME_NAME="11_NSDate 获取几年前的时间" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="11_NSDate 获取几年前的时间" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="12_iOS加载启动图的时候隐藏 StatusBar" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="12_iOS加载启动图的时候隐藏 StatusBar" CONFIG_NAME="Debug" SCHEME_NAME="12_iOS加载启动图的时候隐藏 StatusBar" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="12_iOS加载启动图的时候隐藏 StatusBar" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="13_打印 %" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="13_打印 %" CONFIG_NAME="Debug" SCHEME_NAME="13_打印 %" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="13_打印 %" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="14_APP 屏蔽触发事件" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="14_APP 屏蔽触发事件" CONFIG_NAME="Debug" SCHEME_NAME="14_APP 屏蔽触发事件" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="14_APP 屏蔽触发事件" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="15_NSAttributedString 图文混排" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="15_NSAttributedString 图文混排" CONFIG_NAME="Debug" SCHEME_NAME="15_NSAttributedString 图文混排" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="15_NSAttributedString 图文混排" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="16_宏" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="16_宏" CONFIG_NAME="Debug" SCHEME_NAME="16_宏" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="16_宏" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="17_打印所有子视图" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="17_打印所有子视图" CONFIG_NAME="Debug" SCHEME_NAME="17_打印所有子视图" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="17_打印所有子视图" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="18_NSString过滤特殊字符" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="18_NSString过滤特殊字符" CONFIG_NAME="Debug" SCHEME_NAME="18_NSString过滤特殊字符" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="18_NSString过滤特殊字符" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="19_去掉TableView分割线多余15像素" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="19_去掉TableView分割线多余15像素" CONFIG_NAME="Debug" SCHEME_NAME="19_去掉TableView分割线多余15像素" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="19_去掉TableView分割线多余15像素" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="20_TextField" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="20_TextField" CONFIG_NAME="Debug" SCHEME_NAME="20_TextField" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="20_TextField" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="21_AreaPickerView" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="21_AreaPickerView" CONFIG_NAME="Debug" SCHEME_NAME="21_AreaPickerView" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="21_AreaPickerView" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Objective-C_201605" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Objective-C_201605" TARGET_NAME="Objective-C_201605" CONFIG_NAME="Debug" SCHEME_NAME="Objective-C_201605" RUN_TARGET_PROJECT_NAME="Objective-C_201605" RUN_TARGET_NAME="Objective-C_201605" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="21">
+      <item index="0" class="java.lang.String" itemvalue="Application.01_App_Launch_Image" />
+      <item index="1" class="java.lang.String" itemvalue="Application.02_获取 UIColor 的 RGB 值" />
+      <item index="2" class="java.lang.String" itemvalue="Application.03_计算两点之间的距离" />
+      <item index="3" class="java.lang.String" itemvalue="Application.05_iOS模拟器的键盘事件" />
+      <item index="4" class="java.lang.String" itemvalue="Application.06_ScrollView的KeyboardDismissMode" />
+      <item index="5" class="java.lang.String" itemvalue="Application.07_StatusBar文字颜色" />
+      <item index="6" class="java.lang.String" itemvalue="Application.08_将CGPoint存入数组" />
+      <item index="7" class="java.lang.String" itemvalue="Application.09_将 color 转为 UIImage" />
+      <item index="8" class="java.lang.String" itemvalue="Application.10_NSTimer 用法" />
+      <item index="9" class="java.lang.String" itemvalue="Application.11_NSDate 获取几年前的时间" />
+      <item index="10" class="java.lang.String" itemvalue="Application.12_iOS加载启动图的时候隐藏 StatusBar" />
+      <item index="11" class="java.lang.String" itemvalue="Application.13_打印 %" />
+      <item index="12" class="java.lang.String" itemvalue="Application.14_APP 屏蔽触发事件" />
+      <item index="13" class="java.lang.String" itemvalue="Application.15_NSAttributedString 图文混排" />
+      <item index="14" class="java.lang.String" itemvalue="Application.16_宏" />
+      <item index="15" class="java.lang.String" itemvalue="Application.17_打印所有子视图" />
+      <item index="16" class="java.lang.String" itemvalue="Application.18_NSString过滤特殊字符" />
+      <item index="17" class="java.lang.String" itemvalue="Application.19_去掉TableView分割线多余15像素" />
+      <item index="18" class="java.lang.String" itemvalue="Application.20_TextField" />
+      <item index="19" class="java.lang.String" itemvalue="Application.21_AreaPickerView" />
+      <item index="20" class="java.lang.String" itemvalue="Application.Objective-C_201605" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62cdd5e9-1ccc-497d-af51-d3d94ea7c79e" name="Default" comment="" />
+      <created>1466445245390</created>
+      <option name="number" value="Default" />
+      <updated>1466445245390</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="39" y="23" width="1401" height="877" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

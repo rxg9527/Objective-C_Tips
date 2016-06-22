@@ -142,6 +142,12 @@
 		0CC4F4541CFD732D00AA9E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC4F4521CFD732D00AA9E4F /* Main.storyboard */; };
 		0CC4F4561CFD732D00AA9E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC4F4551CFD732D00AA9E4F /* Assets.xcassets */; };
 		0CC4F4591CFD732D00AA9E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC4F4571CFD732D00AA9E4F /* LaunchScreen.storyboard */; };
+		0CFFAD151D1A40B6009646A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFFAD141D1A40B6009646A1 /* main.m */; };
+		0CFFAD181D1A40B6009646A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFFAD171D1A40B6009646A1 /* AppDelegate.m */; };
+		0CFFAD1B1D1A40B6009646A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFFAD1A1D1A40B6009646A1 /* ViewController.m */; };
+		0CFFAD1E1D1A40B6009646A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFFAD1C1D1A40B6009646A1 /* Main.storyboard */; };
+		0CFFAD201D1A40B6009646A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFFAD1F1D1A40B6009646A1 /* Assets.xcassets */; };
+		0CFFAD231D1A40B6009646A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFFAD211D1A40B6009646A1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -370,6 +376,16 @@
 		0CC4F4551CFD732D00AA9E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC4F4581CFD732D00AA9E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CC4F45A1CFD732D00AA9E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFFAD111D1A40B6009646A1 /* 22_手机联系人选择.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "22_手机联系人选择.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFFAD141D1A40B6009646A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CFFAD161D1A40B6009646A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CFFAD171D1A40B6009646A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CFFAD191D1A40B6009646A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CFFAD1A1D1A40B6009646A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CFFAD1D1D1A40B6009646A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CFFAD1F1D1A40B6009646A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CFFAD221D1A40B6009646A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CFFAD241D1A40B6009646A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -521,6 +537,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0CC4F4441CFD732D00AA9E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFFAD0E1D1A40B6009646A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -915,6 +938,7 @@
 				0CC4F4481CFD732D00AA9E4F /* 19_去掉TableView分割线多余15像素 */,
 				0C22C56C1D0565A000235F49 /* 20_TextField */,
 				0CA379261D1864A900E57A20 /* 21_AreaPickerView */,
+				0CFFAD121D1A40B6009646A1 /* 22_手机联系人选择 */,
 				0C71354A1CE6BB6B00EBA14C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -944,6 +968,7 @@
 				0CC4F4471CFD732D00AA9E4F /* 19_去掉TableView分割线多余15像素.app */,
 				0C22C56B1D0565A000235F49 /* 20_TextField.app */,
 				0CA379251D1864A900E57A20 /* 21_AreaPickerView.app */,
+				0CFFAD111D1A40B6009646A1 /* 22_手机联系人选择.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1117,6 +1142,30 @@
 			isa = PBXGroup;
 			children = (
 				0CC4F44A1CFD732D00AA9E4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CFFAD121D1A40B6009646A1 /* 22_手机联系人选择 */ = {
+			isa = PBXGroup;
+			children = (
+				0CFFAD161D1A40B6009646A1 /* AppDelegate.h */,
+				0CFFAD171D1A40B6009646A1 /* AppDelegate.m */,
+				0CFFAD191D1A40B6009646A1 /* ViewController.h */,
+				0CFFAD1A1D1A40B6009646A1 /* ViewController.m */,
+				0CFFAD1C1D1A40B6009646A1 /* Main.storyboard */,
+				0CFFAD1F1D1A40B6009646A1 /* Assets.xcassets */,
+				0CFFAD211D1A40B6009646A1 /* LaunchScreen.storyboard */,
+				0CFFAD241D1A40B6009646A1 /* Info.plist */,
+				0CFFAD131D1A40B6009646A1 /* Supporting Files */,
+			);
+			path = "22_手机联系人选择";
+			sourceTree = "<group>";
+		};
+		0CFFAD131D1A40B6009646A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CFFAD141D1A40B6009646A1 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1498,6 +1547,23 @@
 			productReference = 0CC4F4471CFD732D00AA9E4F /* 19_去掉TableView分割线多余15像素.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0CFFAD101D1A40B6009646A1 /* 22_手机联系人选择 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFFAD271D1A40B6009646A1 /* Build configuration list for PBXNativeTarget "22_手机联系人选择" */;
+			buildPhases = (
+				0CFFAD0D1D1A40B6009646A1 /* Sources */,
+				0CFFAD0E1D1A40B6009646A1 /* Frameworks */,
+				0CFFAD0F1D1A40B6009646A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "22_手机联系人选择";
+			productName = "22_手机联系人选择";
+			productReference = 0CFFAD111D1A40B6009646A1 /* 22_手机联系人选择.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1573,6 +1639,9 @@
 					0CC4F4461CFD732D00AA9E4F = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					0CFFAD101D1A40B6009646A1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 0C7135441CE6BB6B00EBA14C /* Build configuration list for PBXProject "Objective-C_201605" */;
@@ -1610,6 +1679,7 @@
 				0CC4F4461CFD732D00AA9E4F /* 19_去掉TableView分割线多余15像素 */,
 				0C22C56A1D0565A000235F49 /* 20_TextField */,
 				0CA379241D1864A900E57A20 /* 21_AreaPickerView */,
+				0CFFAD101D1A40B6009646A1 /* 22_手机联系人选择 */,
 			);
 		};
 /* End PBXProject section */
@@ -1837,6 +1907,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CFFAD0F1D1A40B6009646A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFFAD231D1A40B6009646A1 /* LaunchScreen.storyboard in Resources */,
+				0CFFAD201D1A40B6009646A1 /* Assets.xcassets in Resources */,
+				0CFFAD1E1D1A40B6009646A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2058,6 +2138,16 @@
 				0CC4F4511CFD732D00AA9E4F /* ViewController.m in Sources */,
 				0CC4F44E1CFD732D00AA9E4F /* AppDelegate.m in Sources */,
 				0CC4F44B1CFD732D00AA9E4F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CFFAD0D1D1A40B6009646A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFFAD1B1D1A40B6009646A1 /* ViewController.m in Sources */,
+				0CFFAD181D1A40B6009646A1 /* AppDelegate.m in Sources */,
+				0CFFAD151D1A40B6009646A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2412,6 +2502,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0CC4F4581CFD732D00AA9E4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0CFFAD1C1D1A40B6009646A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CFFAD1D1D1A40B6009646A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CFFAD211D1A40B6009646A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CFFAD221D1A40B6009646A1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3007,6 +3113,28 @@
 			};
 			name = Release;
 		};
+		0CFFAD251D1A40B6009646A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "22_手机联系人选择/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-2--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CFFAD261D1A40B6009646A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "22_手机联系人选择/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-2--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3216,6 +3344,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0CFFAD271D1A40B6009646A1 /* Build configuration list for PBXNativeTarget "22_手机联系人选择" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CFFAD251D1A40B6009646A1 /* Debug */,
+				0CFFAD261D1A40B6009646A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
