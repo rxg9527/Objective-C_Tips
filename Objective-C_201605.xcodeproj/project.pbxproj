@@ -121,6 +121,9 @@
 		0CA379321D1864A900E57A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA379301D1864A900E57A20 /* Main.storyboard */; };
 		0CA379341D1864A900E57A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA379331D1864A900E57A20 /* Assets.xcassets */; };
 		0CA379371D1864A900E57A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA379351D1864A900E57A20 /* LaunchScreen.storyboard */; };
+		0CA3793F1D1864FA00E57A20 /* XGAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3793D1D1864FA00E57A20 /* XGAreaPickerView.m */; };
+		0CA379401D1864FA00E57A20 /* XGAreaPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA3793E1D1864FA00E57A20 /* XGAreaPickerView.xib */; };
+		0CA379421D18677200E57A20 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CA379411D18677200E57A20 /* area.plist */; };
 		0CC4F40B1CFD354900AA9E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4F40A1CFD354900AA9E4F /* main.m */; };
 		0CC4F40E1CFD354900AA9E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4F40D1CFD354900AA9E4F /* AppDelegate.m */; };
 		0CC4F4111CFD354900AA9E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4F4101CFD354900AA9E4F /* ViewController.m */; };
@@ -333,6 +336,10 @@
 		0CA379331D1864A900E57A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA379361D1864A900E57A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA379381D1864A900E57A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA3793C1D1864FA00E57A20 /* XGAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGAreaPickerView.h; sourceTree = "<group>"; };
+		0CA3793D1D1864FA00E57A20 /* XGAreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGAreaPickerView.m; sourceTree = "<group>"; };
+		0CA3793E1D1864FA00E57A20 /* XGAreaPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XGAreaPickerView.xib; sourceTree = "<group>"; };
+		0CA379411D18677200E57A20 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 		0CC4F4071CFD354900AA9E4F /* 17_打印所有子视图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "17_打印所有子视图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC4F40A1CFD354900AA9E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CC4F40C1CFD354900AA9E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1017,6 +1024,10 @@
 		0CA379261D1864A900E57A20 /* 21_AreaPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				0CA3793C1D1864FA00E57A20 /* XGAreaPickerView.h */,
+				0CA3793D1D1864FA00E57A20 /* XGAreaPickerView.m */,
+				0CA3793E1D1864FA00E57A20 /* XGAreaPickerView.xib */,
+				0CA379411D18677200E57A20 /* area.plist */,
 				0CA3792A1D1864A900E57A20 /* AppDelegate.h */,
 				0CA3792B1D1864A900E57A20 /* AppDelegate.m */,
 				0CA3792D1D1864A900E57A20 /* ViewController.h */,
@@ -1789,8 +1800,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CA379371D1864A900E57A20 /* LaunchScreen.storyboard in Resources */,
+				0CA379421D18677200E57A20 /* area.plist in Resources */,
 				0CA379341D1864A900E57A20 /* Assets.xcassets in Resources */,
 				0CA379321D1864A900E57A20 /* Main.storyboard in Resources */,
+				0CA379401D1864FA00E57A20 /* XGAreaPickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2014,6 +2027,7 @@
 				0CA3792F1D1864A900E57A20 /* ViewController.m in Sources */,
 				0CA3792C1D1864A900E57A20 /* AppDelegate.m in Sources */,
 				0CA379291D1864A900E57A20 /* main.m in Sources */,
+				0CA3793F1D1864FA00E57A20 /* XGAreaPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3174,6 +3188,7 @@
 				0CA3793A1D1864A900E57A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CC4F41D1CFD354900AA9E4F /* Build configuration list for PBXNativeTarget "17_打印所有子视图" */ = {
 			isa = XCConfigurationList;
