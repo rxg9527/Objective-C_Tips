@@ -52,3 +52,10 @@ Carthage/Build
 fastlane/report.xml
 fastlane/screenshots
 .clang-format
+
+# AppCode
+.idea/
+
+# injection for Xcode
+iOSInjectionProject/
+

@@ -50,6 +50,11 @@
 
 /*---------------------------------------------------------------------*/
 #pragma mark - 系统宏
+
+#define WO(weakObject, object) __weak __typeof(&*object)weakObject = object
+#define WEAK_SELF __weak typeof(self)weakSelf = self
+#define STRONG_SELF __strong typeof(weakSelf)self = weakSelf
+
 /* 获取版本 */
 #define IOS_VERSION             [[[UIDevice currentDevice] systemVersion] floatValue]
 #define CurrentSystemVersion    [[UIDevice currentDevice] systemVersion]
