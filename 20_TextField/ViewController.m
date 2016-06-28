@@ -45,4 +45,24 @@
     NSLog(@"%@, %@", self.text1, self.text2);
 }
 
+/**
+ *  textField 字符限制
+ *
+ *  @param textField <#textField description#>
+ *  @param range     <#range description#>
+ *  @param string    <#string description#>
+ *
+ *  @return <#return value description#>
+ */
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    if ([textField isEqual:_textField1]) {
+        NSInteger existedLength = textField.text.length;
+        NSInteger selectedLength = range.length;
+        NSInteger replaceLength = string.length;
+        if (existedLength - selectedLength + replaceLength > 5) {
+            return NO;
+        }
+    }
+    return YES;
+}
 @end
