@@ -21,8 +21,8 @@
     
     self.view.backgroundColor = [UIColor cyanColor];
     
-    CurveView *view = [[CurveView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
-    [self.view addSubview:view];
+//    CurveView *view = [[CurveView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+//    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {
