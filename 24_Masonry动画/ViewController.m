@@ -20,6 +20,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.aniView = ({
+        UIView *view = [UIView new];
+        view.backgroundColor = [UIColor redColor];
+        [self.view addSubview:view];
+        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+             make.edges.mas_equalTo(UIEdgeInsetsMake(10, 10, 10, 10));
+        }];
+        view;
+    });
+
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.01 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.aniView mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.edges.mas_equalTo(UIEdgeInsetsMake(50, 50, 50, 50));
+        }];
+        
+        [UIView animateWithDuration:3 animations:^{
+            [self.view layoutIfNeeded];
+        }];
+    });
+
 }
 
 - (void)didReceiveMemoryWarning {
