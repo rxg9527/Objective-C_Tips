@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+XGCategory.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *timeStr = [NSString getStringWithTimestamp:1466750984 formatter:@"yyyy-MM-dd HH:mm:ss"];
+    NSLog(@"%@", timeStr);
 }
 
 - (void)didReceiveMemoryWarning {
