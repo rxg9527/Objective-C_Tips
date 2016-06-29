@@ -17,9 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wcj-wN-tfA" customClass="CurveView">
-                                <rect key="frame" x="61" y="239" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wcj-wN-tfA" customClass="CurveView">
+                                <rect key="frame" x="52.5" y="253.5" width="270" height="160"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="lUM-2F-3bO"/>
+                                    <constraint firstAttribute="height" constant="160" id="r8P-5Z-5p0"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="scaleFactor">
                                         <real key="value" value="50"/>
@@ -28,6 +32,10 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wcj-wN-tfA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OsQ-pq-n57"/>
+                            <constraint firstItem="wcj-wN-tfA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RVr-hD-4tv"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>

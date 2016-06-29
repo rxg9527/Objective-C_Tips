@@ -39,6 +39,7 @@
 }
 
 - (void)setup {
+    self.contentMode = UIViewContentModeRedraw;
     self.backgroundColor = nil;
     self.opaque = NO;
     [self createCurve];
