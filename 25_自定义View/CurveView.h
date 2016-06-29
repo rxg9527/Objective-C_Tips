@@ -11,4 +11,6 @@
 IB_DESIGNABLE
 @interface CurveView : UIView
 
+@property (nonatomic, assign) IBInspectable CGFloat scaleFactor;
+
 @end

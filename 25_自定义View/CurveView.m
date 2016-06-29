@@ -32,6 +32,12 @@
     return self;
 }
 
+- (void)setScaleFactor:(CGFloat)scaleFactor {
+    _scaleFactor = scaleFactor;
+    [self createCurve];
+    [self setNeedsLayout];
+}
+
 - (void)setup {
     self.backgroundColor = nil;
     self.opaque = NO;
@@ -46,7 +52,7 @@
     NSMutableArray<NSValue *> * a = @[].mutableCopy;
     for (int i = -[self minLengthOfBound] / 2; i <= [self minLengthOfBound] / 2; i++) {
         CGFloat r = i * M_PI / 100;
-        CGFloat y = 50 * sin(2 * r);
+        CGFloat y = self.scaleFactor * sin(2 * r);
         CGPoint pt = CGPointMake(i, y);
         [a addObject:[NSValue valueWithCGPoint:pt]];
     }
