@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CurveView.h"
+#import "TemperatureView.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,9 @@
     
 //    CurveView *view = [[CurveView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
 //    [self.view addSubview:view];
+    
+//    TemperatureView *tView = [[TemperatureView alloc] initWithFrame:CGRectMake(100, 150, 150, 75)];
+//    [self.view addSubview:tView];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TemperatureView">
+            <connections>
+                <outlet property="temperatureLabel" destination="eTD-HB-2Ok" id="MCN-My-uI0"/>
+                <outlet property="unitSegment" destination="gVj-t0-bMF" id="3eJ-Ag-NNa"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rSh-84-3Bu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="107"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTD-HB-2Ok">
+                    <rect key="frame" x="0.0" y="43" width="42" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gVj-t0-bMF">
+                    <rect key="frame" x="193" y="71" width="59" height="29"/>
+                    <segments>
+                        <segment title="℃"/>
+                        <segment title="℉"/>
+                    </segments>
+                    <connections>
+                        <action selector="unitChanged:" destination="-1" eventType="valueChanged" id="u30-sQ-51k"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eTD-HB-2Ok" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2ff-Fk-yAG"/>
+                <constraint firstItem="eTD-HB-2Ok" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PuM-XN-ktZ"/>
+                <constraint firstItem="gVj-t0-bMF" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="qo2-ra-Juq"/>
+                <constraint firstItem="gVj-t0-bMF" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="rcr-T6-Mco"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="273" y="120.5"/>
+        </view>
+    </objects>
+</document>

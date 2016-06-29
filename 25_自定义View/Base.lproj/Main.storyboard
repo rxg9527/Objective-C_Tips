@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wcj-wN-tfA" customClass="CurveView">
-                                <rect key="frame" x="52.5" y="253.5" width="270" height="160"/>
+                                <rect key="frame" x="53" y="254" width="270" height="160"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="270" id="lUM-2F-3bO"/>
@@ -30,11 +31,24 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jRW-nw-OUj" customClass="TemperatureView">
+                                <rect key="frame" x="67" y="83" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="celsius">
+                                        <real key="value" value="29"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="jRW-nw-OUj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="63" id="ONm-SY-dAa"/>
                             <constraint firstItem="wcj-wN-tfA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OsQ-pq-n57"/>
                             <constraint firstItem="wcj-wN-tfA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RVr-hD-4tv"/>
+                            <constraint firstItem="jRW-nw-OUj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="V8T-cB-awv"/>
+                            <constraint firstItem="jRW-nw-OUj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d7Q-zL-7to"/>
+                            <constraint firstItem="wcj-wN-tfA" firstAttribute="top" secondItem="jRW-nw-OUj" secondAttribute="bottom" constant="43" id="f7d-xI-Aaq"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

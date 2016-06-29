@@ -37,6 +37,8 @@
 		0C021E391D23FE5900DA676E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E381D23FE5900DA676E /* Assets.xcassets */; };
 		0C021E3C1D23FE5900DA676E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E3A1D23FE5900DA676E /* LaunchScreen.storyboard */; };
 		0C021E431D2400E100DA676E /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C021E421D2400E100DA676E /* CurveView.m */; };
+		0C021E461D240F8C00DA676E /* TemperatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C021E451D240F8C00DA676E /* TemperatureView.m */; };
+		0C021E481D240FB300DA676E /* TemperatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E471D240FB300DA676E /* TemperatureView.xib */; };
 		0C22C56F1D0565A000235F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22C56E1D0565A000235F49 /* main.m */; };
 		0C22C5721D0565A000235F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22C5711D0565A000235F49 /* AppDelegate.m */; };
 		0C22C5751D0565A000235F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22C5741D0565A000235F49 /* ViewController.m */; };
@@ -241,6 +243,9 @@
 		0C021E3D1D23FE5900DA676E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C021E411D2400E100DA676E /* CurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
 		0C021E421D2400E100DA676E /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
+		0C021E441D240F8C00DA676E /* TemperatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureView.h; sourceTree = "<group>"; };
+		0C021E451D240F8C00DA676E /* TemperatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureView.m; sourceTree = "<group>"; };
+		0C021E471D240FB300DA676E /* TemperatureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureView.xib; sourceTree = "<group>"; };
 		0C22C56B1D0565A000235F49 /* 20_TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20_TextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C22C56E1D0565A000235F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C22C5701D0565A000235F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -780,6 +785,9 @@
 			children = (
 				0C021E411D2400E100DA676E /* CurveView.h */,
 				0C021E421D2400E100DA676E /* CurveView.m */,
+				0C021E441D240F8C00DA676E /* TemperatureView.h */,
+				0C021E451D240F8C00DA676E /* TemperatureView.m */,
+				0C021E471D240FB300DA676E /* TemperatureView.xib */,
 				0C021E2D1D23FE5900DA676E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -2015,6 +2023,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C021E3C1D23FE5900DA676E /* LaunchScreen.storyboard in Resources */,
+				0C021E481D240FB300DA676E /* TemperatureView.xib in Resources */,
 				0C021E391D23FE5900DA676E /* Assets.xcassets in Resources */,
 				0C021E371D23FE5900DA676E /* Main.storyboard in Resources */,
 			);
@@ -2292,6 +2301,7 @@
 			files = (
 				0C021E341D23FE5900DA676E /* ViewController.m in Sources */,
 				0C021E311D23FE5900DA676E /* AppDelegate.m in Sources */,
+				0C021E461D240F8C00DA676E /* TemperatureView.m in Sources */,
 				0C021E431D2400E100DA676E /* CurveView.m in Sources */,
 				0C021E2E1D23FE5900DA676E /* main.m in Sources */,
 			);
