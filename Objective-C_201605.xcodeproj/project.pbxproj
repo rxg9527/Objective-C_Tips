@@ -36,6 +36,7 @@
 		0C021E371D23FE5900DA676E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E351D23FE5900DA676E /* Main.storyboard */; };
 		0C021E391D23FE5900DA676E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E381D23FE5900DA676E /* Assets.xcassets */; };
 		0C021E3C1D23FE5900DA676E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C021E3A1D23FE5900DA676E /* LaunchScreen.storyboard */; };
+		0C021E431D2400E100DA676E /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C021E421D2400E100DA676E /* CurveView.m */; };
 		0C22C56F1D0565A000235F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22C56E1D0565A000235F49 /* main.m */; };
 		0C22C5721D0565A000235F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22C5711D0565A000235F49 /* AppDelegate.m */; };
 		0C22C5751D0565A000235F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22C5741D0565A000235F49 /* ViewController.m */; };
@@ -238,6 +239,8 @@
 		0C021E381D23FE5900DA676E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C021E3B1D23FE5900DA676E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C021E3D1D23FE5900DA676E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C021E411D2400E100DA676E /* CurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
+		0C021E421D2400E100DA676E /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
 		0C22C56B1D0565A000235F49 /* 20_TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20_TextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C22C56E1D0565A000235F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C22C5701D0565A000235F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -761,6 +764,8 @@
 			children = (
 				0C021E2F1D23FE5900DA676E /* AppDelegate.h */,
 				0C021E301D23FE5900DA676E /* AppDelegate.m */,
+				0C021E411D2400E100DA676E /* CurveView.h */,
+				0C021E421D2400E100DA676E /* CurveView.m */,
 				0C021E321D23FE5900DA676E /* ViewController.h */,
 				0C021E331D23FE5900DA676E /* ViewController.m */,
 				0C021E351D23FE5900DA676E /* Main.storyboard */,
@@ -2287,6 +2292,7 @@
 			files = (
 				0C021E341D23FE5900DA676E /* ViewController.m in Sources */,
 				0C021E311D23FE5900DA676E /* AppDelegate.m in Sources */,
+				0C021E431D2400E100DA676E /* CurveView.m in Sources */,
 				0C021E2E1D23FE5900DA676E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
