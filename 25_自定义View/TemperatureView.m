@@ -41,6 +41,9 @@
 }
 
 - (void)setup {
+    /**
+     *  Editor -> Debug Selected Views
+     */
 #if TARGET_INTERFACE_BUILDER
     NSBundle *bundle = [NSBundle bundleForClass:self.class];
     [bundle loadNibNamed:NSStringFromClass(self.class) owner:self options:nil];
