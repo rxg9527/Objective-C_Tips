@@ -70,6 +70,13 @@
 //iPhone Simulator
 #endif
 
+/* 判断机型 */
+#define iPhone4 (screenHeight == 480)
+#define iPhone5 (screenHeight == 568)
+#define iPhone6 (screenHeight == 667)
+#define iPhone6p (screenHeight == 736)
+#define iPad (screenHeight == 1024)
+
 /* 检查系统版本 */
 #define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
 #define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
